@@ -1,0 +1,631 @@
+
+
+SOURCE: https://help.zoho.com/portal/en/kb/people/employee-handbook-5-0/leave/articles/leave
+
+Leave Service | Employee Handbook | User Guide | Zoho People 5.0
+Welcome to  Portal
+Skip to Content
+Skip to Menu
+Skip to Footer
+?
+Unknown
+\
+pull-down
+Zoho Corporation
+Home
+My Area
+Knowledge Base
+Community
+オンラインフォーラム
+ZUGs
+Sign In
+As a customer
+To submit requests, browse through articles and participate in the community.
+As an agent
+To access the agent interface where you can handle your tickets.
+English
+Languages
+العربية
+中文(简体)
+Nederlands
+English
+English (United Kingdom)
+Français (France)
+Deutsch
+हिन्दी
+Bahasa Indonesia
+日本語
+Português
+Español (España)
+Tiếng Việt
+Default :
+English
+Welcome to Zoho Cares
+Search our knowledge base, ask the community or submit a request.
+Knowledge Base
+Community
+Add Request
+Add Topic
+Knowledge Base
+People
+Employee Handbook (5.0)
+Leave
+Leave Service for Employees
+What is the "Leave" user service?
+The "Leave" user service refers to the Leave tab accessed through the left bar in Zoho People. It displays all the necessary employee leave related information such as leave summary, leave balance, etc. It allows users to raise leave-related requests, view upcoming holidays, and more. This space is intended for all users and is accessible by all roles (team members, managers and even administrators).
+How to navigate to leave user service?
+Simply click on the Leave icon in the left bar in Zoho People.
+What can you do here?
+View leave summary
+Navigate to
+Leave
+>
+Leave Summary
+tab
+View
+Leave Summary
+(
+Leave
+>
+My Data
+>
+Leave Summary
+) for a quick overview of the available leave policies and their corresponding leave balance, shortcuts to apply leave, check recent absences, upcoming holidays or leave information, and past leave and upcoming holidays information.
+Calendar View
+Use the
+Calendar
+view option to check your leave and holiday information for the current month. You can also navigate between future and past months of the current year to view the data.
+Sync Leave Calendar
+By default, Zoho People is integrated with Zoho Calendar. Enable or disable the setting in
+Zoho Calendar
+to view your leave and holiday information in Zoho Calendar.
+Additionally, Zoho People provides an option to sync your approved leaves and holiday information to
+Microsoft 365
+or
+Google Calendar
+upon authentication. Access the sync options from the
+More
+options menu (three-dot ellipses icon).
+You must revoke
+Microsoft 365
+or
+Google
+Calendar before you can switch to the other.
+Zoho
+| Microsoft
+| Google Calendar Views
+Appy Leave / Compensatory / Leave Grant requests
+Navigate to
+Leave
+>
+Leave Requests
+tab / Compensatory off / Leave Grant tab and click
+Add Request
+to add corresponding request.
+You can do this by using the
+Apply Leave
+button from the
+Leave Summary
+tab or from any absent records dieplayed in
+Home
+>
+My Space
+>
+Activities
+.
+From the apply leave screen, you can select the leave type, date range, view the leave summary, access leave reports, read the leave policy document if available, and add attachments if required.
+What is a Leave Grant?
+In Zoho People, "Leave Grant" allows managers to allocate additional leave days to employees beyond their regular entitlement.
+What is Compensatory Off?
+In Zoho People, "Compensatory Off" allows employees to take time off in lieu of extra hours or days worked beyond their regular schedule.
+Cancelling a leave request
+Cancel a leave request by navigating to
+Leave
+>
+Leave Requests
+tab and selecting an unapproved leave, and clicking on
+Cancel Leave
+. For leave requests with multiple days, you can partially cancel by using the checbkoxes adjacent to the dates when canceling a leave request (if your organization has enabled this feature).
+What is Partial Leave Cancellation?
+In Zoho People, "Partial Leave Cancellation" allows employees to cancel a portion of their unapproved leave while keeping the rest intact.
+View Bradford score information
+View Bradford score information from the
+Bradford Score
+tab (if feature is enabled).
+What is Bradford score?
+In Zoho People, the Bradford Score measures employee absenteeism by calculating the impact of frequent short-term absences on workforce productivity.
+View shift information
+Navigate to
+Leave
+>
+My Data
+>
+Shifts
+tab. Here you can v
+iew shift information and assign shifts (if applicable)
+. You can view shifts in weekly or monthly views. Use the arrows (
+) to cycle between the periods.
+View team members leave information
+Navigate to
+Leave
+>
+Team
+tab.
+You can quickly check your team / project members on leave by navigating to the
+Team
+tab.
+View upcoming holidays
+Navigate to
+Leave > Holidays
+tab.
+Employees can view upcoming holidays, and holidays specific to the various locations and shifts.
+Access your leave reports
+Access your leave related reports using the
+Reports
+icon (
+) in the bottom-left corner >
+My Reports
+/
+Team Reports
+tab.
+See my team availability
+To view your team availability, navigate to
+Reports
+(bottom left corner) >
+Team Reports
+>
+Resource availability report.
+Jeffrey Philip E
+Updated:
+1 year ago
+Helpful?
+3
+1
+Share :
+Comment
+A
+/* */
+12
+Insert
+Plain text
+Rich Text
+Add Comment
+Cancel
+Attach a file
+(Up to 20 MB )
+Redefine the way you work
+with Zoho Workplace
+Start your free trial
+Stats
+1
+follower
+Follow
+Subscribe to receive notifications from this article.
+On this page
+What is the "Leave" user service?
+What can you do here?
+Leave
+Leave Service for Employees
+Quick Links
+Admin Guide
+API
+Employee Handbook
+Help Videos
+Webinars
+HR Knowledge Hive
+What's New
+Youtube
+HR Glossary
+Related
+Articles
+User Service Overview:  Leave
+Leave Service Operations - Overview
+Additonal Options in Leave Service
+Leave Service - Reports Settings
+Leave Reports
+Wherever you are is as good as
+your workplace
+Workplace on mobile
+By submitting this form, you agree to the processing of personal data according to our
+Privacy Policy.
+Follow us on:
+Apps
+Mobile Apps
+G Suite Integration
+Microsoft Office 365 Integration
+Apps for Apple Watch
+Partners
+Hosting Providers
+Partners
+Consulting Partners
+Platform Partners
+Technology Partners
+Resources
+Zia
+Support
+Community
+Forums
+Blogs
+Academy
+About
+About Zoho
+Perspectives
+Events
+Press
+Zoho in the News
+Zoho Opinions
+Contact Us
+Zoho Schools
+Contact - India
+GST Helpline
+1800 123 7711
+gstindia@zohofinance.com
+Sales
+1800 103 1123
++91 (44) 69656060
+sales@zohocorp.com
+Zoho Home
+Contact
+Security
+IPR Complaints
+Anti-spam Policy
+Terms of Service
+Privacy Policy
+Cookie Policy
+GDPR Compliance
+Abuse Policy
+Community Guidelines
+© 2026, Zoho Corporation Pvt. Ltd. All Rights Reserved.
+Zoho ホーム
+プレスリリース
+Zohoについて
+お問い合わせ
+Zoho コミュニティ
+製品サポートガイドライン
+情報セキュリティについて
+知的財産権について
+迷惑メール防止規定
+サービス規約
+プライバシーポリシー
+Cookieポリシー
+GDPRコンプライアンス
+オンライン決済後のキャンセルについて
+Zoho ホーム
+プレスリリース
+Zohoについて
+お問い合わせ
+セミナー・イベント開催予定
+Zoho コミュニティ
+製品サポートガイドライン
+データセンターについて
+情報セキュリティについて
+コンプライアンス一覧
+知的財産権について
+迷惑メール防止規定
+サービス規約
+プライバシーポリシー
+Cookieポリシー
+GDPRコンプライアンス
+悪用防止規定
+販売規約
+サイトの利用条件
+© 2026, ZOHO Japan Corporation. All Rights Reserved.
+日本語
+English
+Español
+Português (Brasil)
+Deutsch
+Français
+Nederlands
+العربية
+Bahasa Indonesia
+ภาษาไทย
+Tiếng Việt
+Italiano
+简体中文
+Twitter
+FB
+Youtube
+linkedin
+Instagram
+We're Online!
+How may I help you today?
+
+SOURCE: https://help.zoho.com/portal/en/kb/people/employee-handbook-5-0/attendance/articles/attendance
+
+Attendance Service | Employee Handbook | User Guide | Zoho People 5.0
+Welcome to  Portal
+Skip to Content
+Skip to Menu
+Skip to Footer
+?
+Unknown
+\
+pull-down
+Zoho Corporation
+Home
+My Area
+Knowledge Base
+Community
+オンラインフォーラム
+ZUGs
+Sign In
+As a customer
+To submit requests, browse through articles and participate in the community.
+As an agent
+To access the agent interface where you can handle your tickets.
+English
+Languages
+العربية
+中文(简体)
+Nederlands
+English
+English (United Kingdom)
+Français (France)
+Deutsch
+हिन्दी
+Bahasa Indonesia
+日本語
+Português
+Español (España)
+Tiếng Việt
+Default :
+English
+Welcome to Zoho Cares
+Search our knowledge base, ask the community or submit a request.
+Knowledge Base
+Community
+Add Request
+Add Topic
+Knowledge Base
+People
+Employee Handbook (5.0)
+Attendance
+Attendance Service for Employees
+What is the "Attendance" user service?
+The "Attendance" user service refers to the Attendance tab accessed through the left bar in Zoho People. It displays all the necessary attendance service-related information ,such as attendance summary, overtime, shift, etc. Here you can raise attendance-related requests, check-in and more.
+How to navigate to attendance user service?
+Simply click on the Attendance icon in the left bar in Zoho People.
+What can you do here?
+Check-in / Check-out / Break Time
+Navigate to
+Attendance
+>
+My Data
+>
+Attendance Summary
+tab and use the
+Check-in
+/
+Check-out
+green/red button. Depending on your organization's preferences, the counter for your break time may begin when you mark a check-out during office hours.
+View attendance summary
+Navigate to
+Attendance
+>
+My Data
+>
+Attendance Summary
+tab.
+The Attendance Summary displays the days or hours view of your attendance, this includes hours worked, check-in/check-out time lines. To view a record in detail, simply click on the particular timeline. Use the (
+) icon to cycle between the time periods.
+View check-in and check-out details
+To view check-in and check-out details for a specific workday:
+In the Attendance Summary tab, click on List View.
+Click on the day for which you want to view the check-in and check-out details.
+If facial recognition is enabled, you can view captured images of yourself or your repartees (based on permission) by clicking the profile icon. Images are available for check-ins and check-outs completed via the Zoho People mobile app, web application, or kiosk. For kiosk-based check-ins and check-outs, captured images from the past three months will only be available for viewing in the system.
+Raising a permission or on-duty request
+Navigate to
+Attendance
+>
+My Data
+, click on the Request button and select Permission or On-duty (availability depends on your organization's policies)
+You can also track and raise
+Permissions
+and
+On Duty
+requests from their corresponding tabs.
+Within the Attendance Summary page, you also have
+Filter
+,
+Export
+and
+Audit History
+options.
+What is Audit History?
+Audit history shows the attendance log timeline along with any changes initiated by any Zoho People user or the system. For example, if your manager updates your attendance entries, this can be viewed here.
+Regularize your attendance
+What is attendance regularization?
+Attendance regularization offers the opportunity to submit requests to correct any inaccurate attendance records. These inaccuracies may arise from instances such as forgetting to check in or out or technical errors resulting in incorrect entries. Through the attendance regularization process, you can submit a request to amend your attendance records by providing the correct information along with an explanation for the request.
+Navigate to
+Attendance
+>
+My Data
+>
+Regularization
+tab, view your pending requests, or click
+Add Request
+to raise a new regularization request. You will be required to select the date, time range, reason, and description when submitting a regularization request. Once your manager approves the regularization request, the system will automatically update your attendance records.
+View shift information
+Navigate to
+Attendance
+>
+My Data
+>
+Shifts
+tab. Here you can v
+iew shift information and assign shifts (if applicable).
+You can view shifts in weekly or monthly views. Use the arrows (
+) to cycle between the periods.
+Hover over the specific day’s shift and click
+Edit
+icon to request a shift change for that day or a specific period.
+You can also view leave information in your shift calendar.
+View team members attendance status
+Navigate to
+Attendance
+>
+Team
+>
+Team Members
+. Using this, you
+can quickly check your team/project members check-in status.
+View attendance-related reports
+You have access to four Attendance related reports (based on your organization's employee permission preferences), namely, Early/late check-in and check-out,
+Present/absent status.
+Presence hours break-up,
+Overtime details. To access these reports, navigate to Reports (bottom left-corner) and select the corresponding Attendance report.
+Jeffrey Philip E
+Updated:
+11 months ago
+Helpful?
+0
+3
+Share :
+Comment
+A
+/* */
+12
+Insert
+Plain text
+Rich Text
+Add Comment
+Cancel
+Attach a file
+(Up to 20 MB )
+Redefine the way you work
+with Zoho Workplace
+Start your free trial
+Stats
+2
+followers
+Follow
+Subscribe to receive notifications from this article.
+On this page
+What is the "Attendance" user service?
+Attendance
+Attendance Service for Employees
+Quick Links
+Admin Guide
+API
+Employee Handbook
+Help Videos
+Webinars
+HR Knowledge Hive
+What's New
+Youtube
+HR Glossary
+Related
+Articles
+Attendance Service Overview
+Attendance Reports
+Attendance Service Settings - Overview
+User Service Overview:  Leave
+User Service Overview: Compensation
+Wherever you are is as good as
+your workplace
+Workplace on mobile
+By submitting this form, you agree to the processing of personal data according to our
+Privacy Policy.
+Follow us on:
+Apps
+Mobile Apps
+G Suite Integration
+Microsoft Office 365 Integration
+Apps for Apple Watch
+Partners
+Hosting Providers
+Partners
+Consulting Partners
+Platform Partners
+Technology Partners
+Resources
+Zia
+Support
+Community
+Forums
+Blogs
+Academy
+About
+About Zoho
+Perspectives
+Events
+Press
+Zoho in the News
+Zoho Opinions
+Contact Us
+Zoho Schools
+Contact - India
+GST Helpline
+1800 123 7711
+gstindia@zohofinance.com
+Sales
+1800 103 1123
++91 (44) 69656060
+sales@zohocorp.com
+Zoho Home
+Contact
+Security
+IPR Complaints
+Anti-spam Policy
+Terms of Service
+Privacy Policy
+Cookie Policy
+GDPR Compliance
+Abuse Policy
+Community Guidelines
+© 2026, Zoho Corporation Pvt. Ltd. All Rights Reserved.
+Zoho ホーム
+プレスリリース
+Zohoについて
+お問い合わせ
+Zoho コミュニティ
+製品サポートガイドライン
+情報セキュリティについて
+知的財産権について
+迷惑メール防止規定
+サービス規約
+プライバシーポリシー
+Cookieポリシー
+GDPRコンプライアンス
+オンライン決済後のキャンセルについて
+Zoho ホーム
+プレスリリース
+Zohoについて
+お問い合わせ
+セミナー・イベント開催予定
+Zoho コミュニティ
+製品サポートガイドライン
+データセンターについて
+情報セキュリティについて
+コンプライアンス一覧
+知的財産権について
+迷惑メール防止規定
+サービス規約
+プライバシーポリシー
+Cookieポリシー
+GDPRコンプライアンス
+悪用防止規定
+販売規約
+サイトの利用条件
+© 2026, ZOHO Japan Corporation. All Rights Reserved.
+日本語
+English
+Español
+Português (Brasil)
+Deutsch
+Français
+Nederlands
+العربية
+Bahasa Indonesia
+ภาษาไทย
+Tiếng Việt
+Italiano
+简体中文
+Twitter
+FB
+Youtube
+linkedin
+Instagram
+We're Online!
+How may I help you today?

@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Angular
+node_modules/
+.angular/
+dist/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# FAISS
+backend/faiss_index/
+
+# Logs
+*.log

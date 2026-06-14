@@ -1,0 +1,105 @@
+<div class="container">
+
+  <div class="header">
+    <h1>HR Portal</h1>
+    <p>Manage attendance, leave, regularization and HR queries</p>
+  </div>
+
+  <div class="menu">
+    <button (click)="changePage('dashboard')">Dashboard</button>
+    <button (click)="changePage('attendance')">Attendance</button>
+    <button (click)="changePage('leave')">Apply Leave</button>
+    <button (click)="changePage('regularization')">Regularization</button>
+    <button (click)="changePage('assistant')">HR Assistant</button>
+  </div>
+
+  <div *ngIf="currentPage === 'dashboard'" class="section">
+    <h2>Dashboard</h2>
+
+    <div class="dashboard-grid">
+      <div class="stat-card">
+        <h3>Attendance</h3>
+        <p>View daily attendance records</p>
+      </div>
+
+      <div class="stat-card">
+        <h3>Leave</h3>
+        <p>Apply and track leave requests</p>
+      </div>
+
+      <div class="stat-card">
+        <h3>Regularization</h3>
+        <p>Fix missed check-in or check-out</p>
+      </div>
+
+      <div class="stat-card">
+        <h3>HR Assistant</h3>
+        <p>Ask HR policy questions</p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="currentPage === 'attendance'" class="section">
+    <h2>Attendance Dashboard</h2>
+
+    <div *ngFor="let item of attendanceData | keyvalue" class="card">
+      <div class="card-title">
+        <h3>{{ item.key }}</h3>
+        <span class="badge">{{ item.value.Status }}</span>
+      </div>
+
+      <p><b>Shift:</b> {{ item.value.ShiftName }}</p>
+      <p><b>Shift Time:</b> {{ item.value.ShiftStartTime }} - {{ item.value.ShiftEndTime }}</p>
+      <p><b>Entry Time:</b> {{ item.value.FirstIn }}</p>
+      <p><b>Exit Time:</b> {{ item.value.LastOut }}</p>
+      <p><b>Working Hours:</b> {{ item.value.WorkingHours }}</p>
+      <p><b>Deviation Time:</b> {{ item.value.DeviationTime }}</p>
+    </div>
+  </div>
+
+  <div *ngIf="currentPage === 'leave'" class="section form-card">
+    <h2>Apply Leave</h2>
+
+    <input placeholder="Leave Type" [(ngModel)]="leaveData.leave_type">
+    <input type="date" [(ngModel)]="leaveData.from_date">
+    <input type="date" [(ngModel)]="leaveData.to_date">
+
+    <textarea placeholder="Reason" [(ngModel)]="leaveData.reason"></textarea>
+
+    <button class="primary-btn" (click)="applyLeave()">Submit Leave</button>
+
+    <p class="message">{{ leaveMessage }}</p>
+  </div>
+
+  <div *ngIf="currentPage === 'regularization'" class="section form-card">
+    <h2>Attendance Regularization</h2>
+
+    <input type="date" [(ngModel)]="regularizationData.date">
+    <input placeholder="Entry Time e.g. 09:15 AM" [(ngModel)]="regularizationData.entry_time">
+    <input placeholder="Exit Time e.g. 06:10 PM" [(ngModel)]="regularizationData.exit_time">
+    <input placeholder="Reason" [(ngModel)]="regularizationData.reason">
+
+    <textarea placeholder="Description" [(ngModel)]="regularizationData.description"></textarea>
+
+    <button class="primary-btn" (click)="submitRegularization()">Submit Regularization</button>
+
+    <p class="message">{{ regularizationMessage }}</p>
+  </div>
+
+  <div *ngIf="currentPage === 'assistant'" class="section form-card">
+    <h2>HR Assistant</h2>
+
+    <textarea 
+      placeholder="Ask something like: How do I regularize attendance?"
+      [(ngModel)]="question">
+    </textarea>
+
+    <button class="primary-btn" (click)="askAssistant()">Ask Assistant</button>
+
+    <div *ngIf="answer" class="answer-box">
+      <h3>Answer</h3>
+      <p>{{ answer }}</p>
+    </div>
+  </div>
+
+</div>
