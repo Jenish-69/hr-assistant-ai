@@ -1,84 +1,77 @@
-\# HR Assistant AI
+# HR Assistant AI & HR Portal
 
+## Overview
 
+HR Assistant AI is an intelligent HR support system developed using FastAPI, Angular, LangChain, LangGraph, FAISS, and Groq LLM. The application provides employees with HR self-service capabilities while enabling natural language interaction through an AI-powered HR Assistant.
 
-\## Overview
+The system combines traditional HR portal functionalities with Retrieval-Augmented Generation (RAG) to answer employee queries based on Zoho People documentation.
 
+---
 
+## Project Objectives
 
-HR Assistant AI is an intelligent HR support system built using Angular, FastAPI, LangGraph, FAISS, and Groq LLM.
+* Provide employee self-service functionalities
+* Automate HR-related query resolution
+* Reduce dependency on HR personnel for common requests
+* Enable intelligent document retrieval from HR knowledge sources
+* Demonstrate modern AI integration within enterprise applications
 
+---
 
+## Features
 
-The system allows employees to view attendance, apply for leave, submit attendance regularization requests, and ask HR-related questions through an AI assistant.
+### HR Portal
 
+* Attendance Dashboard
+* Leave Application Management
+* Attendance Regularization Requests
+* Employee Self-Service Interface
 
+### AI HR Assistant
 
-The AI Assistant uses Retrieval-Augmented Generation (RAG) to retrieve information from Zoho HR documentation and generate relevant answers.
+* Natural Language Question Answering
+* Retrieval-Augmented Generation (RAG)
+* Context-Aware Responses
+* LangGraph Memory Integration
+* HR Documentation Search
+* Leave & Attendance Knowledge Support
 
+---
 
+## Technology Stack
 
-\## Features
+### Frontend
 
+* Angular
+* TypeScript
+* HTML
+* CSS
+* HttpClient
+* FormsModule
 
+### Backend
 
-\- Attendance Dashboard
+* FastAPI
+* Python
+* Uvicorn
 
-\- Leave Application
+### AI & Machine Learning
 
-\- Attendance Regularization
+* LangChain
+* LangGraph
+* Groq LLM
+* HuggingFace Embeddings
+* FAISS Vector Database
+* Sentence Transformers
 
-\- AI HR Assistant Chatbot
+### Knowledge Base
 
-\- RAG-based Question Answering
+* Zoho People Leave Documentation
+* Zoho People Attendance Documentation
 
-\- Zoho HR Documentation Knowledge Base
+---
 
-\- Angular Frontend
-
-\- FastAPI Backend
-
-
-
-\## Tech Stack
-
-
-
-\- Angular
-
-\- FastAPI
-
-\- Python
-
-\- LangChain
-
-\- LangGraph
-
-\- FAISS
-
-\- HuggingFace Embeddings
-
-\- Groq LLM
-
-
-
-\## Project Structure
-
-
-
-```text
-
-hr-assistant/
-
-├── backend/
-
-└── hr-portal/
-
-
-
-\## Architecture
-
-
+## System Architecture
 
 Employee
 
@@ -92,7 +85,7 @@ FastAPI Backend
 
 ↓
 
-LangGraph Agent
+LangGraph Workflow
 
 ↓
 
@@ -112,201 +105,230 @@ Groq LLM
 
 ↓
 
-AI Response
+AI Generated Response
 
+---
 
-
-\## How It Works
-
-
-
-1\. The user interacts with the HR Portal through the Angular frontend.
-
-2\. The frontend sends requests to the FastAPI backend.
-
-3\. The backend handles attendance, leave, regularization, and AI assistant requests.
-
-4\. HR documentation from Zoho is scraped and converted into text chunks.
-
-5\. The text chunks are converted into embeddings using HuggingFace Embeddings.
-
-6\. The embeddings are stored in a FAISS vector database.
-
-7\. When the user asks a question, the retriever searches the FAISS database for relevant HR content.
-
-8\. LangGraph manages the AI workflow.
-
-9\. Groq LLM generates the final response using the retrieved context.
-
-10\. The answer is returned to the user through the frontend.
-
-
-
-\## Screenshots
-
-
-
-\### Dashboard
-
-
-
-(Add screenshot here)
-
-
-
-\### Attendance Dashboard
-
-
-
-(Add screenshot here)
-
-
-
-\### Leave Application
-
-
-
-(Add screenshot here)
-
-
-
-\### Regularization Form
-
-
-
-(Add screenshot here)
-
-
-
-\### AI HR Assistant
-
-
-
-(Add screenshot here)
-
-
-
-\## Future Enhancements
-
-
-
-\- Persistent user memory
-
-\- Multi-user authentication
-
-\- Leave approval workflow
-
-\- Manager dashboard
-
-\- Real-time attendance integration
-
-\- Database integration (MySQL/PostgreSQL)
-
-\- Role-based access control
-
-\- Advanced HR analytics and reporting
-
-
-
-\## Setup Instructions
-
-
-
-\### Backend
-
-
-
-```bash
-
-cd backend
-
-
-
-python -m venv venv
-
-
-
-venv\\Scripts\\activate
-
-
-
-pip install -r requirements.txt
-
-
-
-uvicorn main:app --reload
-
-```
-
-
-
-\### Frontend
-
-
-
-```bash
-
-cd hr-portal
-
-
-
-npm install
-
-
-
-ng serve
-
-```
-
-
-
-\### Access Application
-
-
-
-Frontend:
-
-
+## Project Structure
 
 ```text
+hr-assistant-ai/
 
-http://localhost:4200
-
+│
+├── backend/
+│   ├── main.py
+│   ├── hr_graph_rag.py
+│   ├── hr_graph.py
+│   ├── retriever_tool.py
+│   ├── create_vector_db.py
+│   ├── chunk_data.py
+│   ├── database.py
+│   ├── schemas.py
+│   ├── website_context.txt
+│   └── faiss_index/
+│
+├── hr-portal/
+│   ├── src/
+│   ├── app/
+│   └── assets/
+│
+└── README.md
 ```
 
+## API Endpoints
 
+### Home
 
-Backend:
+```http
+GET /
+```
 
+Response:
 
+```json
+{
+  "message": "HR Assistant API Running"
+}
+```
+
+### Attendance Dashboard
+
+```http
+GET /attendance
+```
+
+Returns employee attendance information.
+
+### Apply Leave
+
+```http
+POST /apply-leave
+```
+
+Submits employee leave requests.
+
+### Attendance Regularization
+
+```http
+POST /regularize
+```
+
+Submits attendance correction requests.
+
+### View Leave Requests
+
+```http
+GET /leave-requests
+```
+
+Returns submitted leave records.
+
+### View Regularization Requests
+
+```http
+GET /regularization-requests
+```
+
+Returns submitted regularization records.
+
+### AI HR Assistant
+
+```http
+POST /ask
+```
+
+Accepts employee questions and returns AI-generated responses.
+
+---
+
+## Retrieval-Augmented Generation (RAG)
+
+The HR Assistant uses Retrieval-Augmented Generation to provide accurate responses.
+
+### Workflow
+
+1. User submits a question
+2. Question is sent to FastAPI backend
+3. Retriever searches FAISS vector database
+4. Relevant HR documentation chunks are retrieved
+5. Context is passed to Groq LLM
+6. AI generates an informed response
+7. Response is returned to the user
+
+---
+
+## LangGraph Agent Workflow
+
+The AI Assistant follows a structured workflow:
+
+### Classify
+
+Determines the category of the employee query.
+
+### Retrieve
+
+Searches HR knowledge documents.
+
+### Generate Response
+
+Uses Groq LLM to formulate the final answer.
+
+### Memory Management
+
+LangGraph MemorySaver stores conversational context using thread-based memory.
+
+---
+
+## Embedding Model
+
+Model:
 
 ```text
-
-http://127.0.0.1:8000
-
+sentence-transformers/all-MiniLM-L6-v2
 ```
 
+Purpose:
 
+* Convert HR documents into vector embeddings
+* Enable semantic similarity search
+* Improve retrieval accuracy
 
-\## Author
+---
 
+## Vector Database
 
+FAISS (Facebook AI Similarity Search)
 
-\*\*Jenish Jebaraj\*\*
+Purpose:
 
+* Store document embeddings
+* Perform similarity search
+* Retrieve relevant HR content efficiently
 
+---
 
-Computer Science Engineering Student
+## Knowledge Sources
 
+The assistant is trained using content extracted from:
 
+* Zoho People Leave Documentation
+* Zoho People Attendance Documentation
+
+The documentation is scraped, cleaned, chunked, embedded, and stored in the FAISS vector database.
+
+---
+
+## Testing
+
+Successfully tested:
+
+* Attendance Dashboard API
+* Leave Submission API
+* Regularization API
+* HR Assistant Endpoint
+* LangGraph Memory Functionality
+* Retrieval Accuracy
+* Frontend Integration
+
+---
+
+## Future Enhancements
+
+* Zoho People API Integration
+* Employee Authentication
+* Role-Based Access Control
+* Email Notifications
+* Multi-Document Knowledge Base
+* Chat Session History
+* Analytics Dashboard
+* Employee Profile Management
+
+---
+
+## Learning Outcomes
+
+Through this project, the following concepts were implemented and explored:
+
+* FastAPI Development
+* Angular Frontend Development
+* REST API Design
+* LangChain
+* LangGraph
+* Retrieval-Augmented Generation
+* FAISS Vector Search
+* HuggingFace Embeddings
+* Groq LLM Integration
+* AI Agent Workflows
+* HR Process Automation
+
+---
+
+## Author
+
+Jenish Jebaraj
+
+Computer Science Engineering
 
 Sathyabama Institute of Science and Technology
 
-
-
-GitHub: https://github.com/Jenish-69
-
-
-
-Project: HR Assistant AI
-
+Internship Project – HR Assistant AI & HR Portal
